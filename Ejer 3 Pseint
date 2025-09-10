@@ -1,0 +1,16 @@
+Algoritmo ImparPar
+	Escribir "Ingrese un numero cualquiera: "
+	Leer a
+	Si a<0 Entonces
+		Escribir "El numero es negativo"
+	SiNo
+		Si a MOD 2 =0 Entonces
+			Escribir "El numero es par y positivo"
+		SiNo
+			Si a MOD 2 <> 0 Entonces
+				Escribir "El numero es impar y positivo"
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
+
