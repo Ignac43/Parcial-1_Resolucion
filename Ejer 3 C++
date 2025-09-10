@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a;
+
+    cout << "Ingrese un numero entero cualquiera: ";
+    cin >> a;
+    if (a < 0) {
+        cout << "El numero es negativo";
+    }
+
+    else if (a % 2 == 0) {
+        cout << "El numero es par y positivo";
+    }
+    else if (a % 2 != 0) {
+        cout << "El numero es impar y positivo";
+    }
+
+    return 0;
+}
