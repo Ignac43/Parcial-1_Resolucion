@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float sueldo_final, sueldo_basico, bono, boni; 
+
+    cout << "Ingrese su sueldo: ";
+    cin >> sueldo_basico;
+    cout << "Ingrese su bono de transporte ";
+    cin >> bono;
+    cout << "Ingrese su bonoficacion por antiguedad: ";
+    cin >> boni;
+
+    sueldo_final = sueldo_basico + bono + boni;
+
+    cout << "Su sueldo final es de: " << sueldo_final;
+
+    return 0;
+}
